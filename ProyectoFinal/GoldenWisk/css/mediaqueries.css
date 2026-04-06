@@ -1,0 +1,129 @@
+@media (max-width: 1024px){
+    .container-nav a{
+        font-size: 1.2rem;
+    }
+
+    .container-nav .registro-login input{
+        font-size: 1.2rem;
+    }
+
+    .imagen-main .hero-text input{
+         font-size: 1.2rem;
+    }
+
+    .imagen-main h1{
+        font-size: 5rem;
+    }
+
+    .imagen-main p{
+        font-size: 2rem;
+    }
+
+    .favoritos-titulo h2{
+        font-size: 3rem;
+    }
+
+    .card{
+    width: 17rem;
+    padding: 2.3rem;
+    }
+
+    .card h2{
+    font-size: 1.3rem;
+    
+    }
+
+    .button{
+    font-size: 0.8rem;
+    }
+
+    .novedades-titulo h2{
+    font-size: 3rem;
+    }
+
+    .review p{
+        font-size: 0.9rem;
+    }
+
+    .cta p{
+        font-size: 1.7rem;
+    }
+
+    footer{
+        font-size: 0.9rem;
+    }
+
+  
+}
+
+
+
+
+@media (max-width:  768px){
+    .container-nav a{
+        font-size: 0.8rem;
+    }
+
+    .container-nav .registro-login input{
+        font-size: 0.8rem;
+    }
+
+    .imagen-main .hero-text input{
+         font-size: 0.9rem;
+    }
+
+      .imagen-main h1{
+        font-size: 4rem;
+    }
+
+    .imagen-main p{
+        font-size: 1.5rem;
+    }
+
+    .favoritos-titulo h2{
+        font-size: 2.5rem;
+    }
+
+     .card{
+    width: 15rem;
+    padding: 2.0rem;
+    }
+
+     .card h2{
+    font-size: 1rem;
+
+    }
+
+       .button{
+    font-size: 0.6rem;
+    }
+
+    .novedades-titulo h2{
+    font-size: 2.5rem;
+    }
+
+     .review p{
+        font-size: 0.8rem;
+    }
+
+      .cta p{
+        font-size: 1.2rem;
+    }
+
+     footer{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .favoritos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px){
+    .favoritos{
+        grid-template-columns: 1fr;
+    }
+}
